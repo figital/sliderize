@@ -6,4 +6,4 @@
 
 * the point is to enable smooth transitions between messages of different heights.
 
-![sliderize](slide.jpg)
+![sliderize](https://github.com/figital/sliderize/raw/master/slide.jpg)
