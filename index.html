@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="main.css"/>	
+
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="sliderize.js"></script>
+
+<h1>sliderize</h1>
+
+
+<div style="width:300px;">
+	<div id="message" class="message"></div>
+
+	<div id="login" style="border:1px solid #ccc;padding:15px;">
+
+		First Name<br>
+		<input name="test" value="Scott" id="test">
+
+	</div>
+</div>
+<br>
+<button onclick="javascript:sliderize('hello ' + $('#test').val(), 'messageBad', '#message');">fire</button>
+
+
+
+<button onclick="javascript:sliderize('adfadsf asdfadsf asfadsf adsfadsfadfadsf asdfadsf asfadsf adsfadsfadfadsf asdfadsf asfadsf adsfadsf', 'messageGood', '#message');">fire</button>
+
+<button onclick="javascript:sliderize('', 'messageGood', '#message');">fire</button>
+
+

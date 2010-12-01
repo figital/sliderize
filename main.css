@@ -1,0 +1,46 @@
+body {
+	font-size: 11px;
+	font-family: sans-serif;
+}
+input {
+	font-size:18px;
+}
+.message {
+	
+	padding:10px;
+	margin:0px;
+	border: 1px solid blue;
+	display:none;
+
+}
+
+.messageSmall {
+	
+	padding:7px;
+	margin:0px;
+	border: 1px solid blue;
+	line-height:120%;
+	
+
+}
+
+.messageGood {
+	border:1px solid #669933;
+	color:#336600;
+	background-color:#ccff99;
+	
+}
+
+.messageBad {
+	border:1px solid #cc6666;
+	color:#993333;
+	background-color:#ffcccc;
+	
+}
+
+.messageCool {
+	border:1px solid #99ccff;
+	color:#336699;
+	background-color:#cceeff;
+	
+}
