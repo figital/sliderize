@@ -1,5 +1,9 @@
-this is probably the first jquery thing i ever wrote.
+#sliderize
 
-i'd like to rewrite from scratch, then possibly turn into a plugin.
+* this is probably the first jquery thing i ever wrote.
 
-the point is to enable smooth transitions between messages of different heights.
+* i'd like to rewrite from scratch, then possibly turn into a plugin.
+
+* the point is to enable smooth transitions between messages of different heights.
+
+![sliderize](/slide.jpg)
