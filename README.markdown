@@ -1,6 +1,6 @@
 #sliderize
 
-* this is probably the first jquery thing i ever wrote.
+* this is probably the first jquery thing i ever wrote (translation: ugly and bad)
 
 * i'd like to rewrite from scratch, then possibly turn into a plugin.
 
