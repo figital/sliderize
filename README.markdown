@@ -7,3 +7,7 @@
 * the point is to enable smooth transitions between messages of different heights.
 
 ![sliderize](https://github.com/figital/sliderize/raw/master/slide.jpg)
+
+
+index.html is clean. css is clean. old script technically works. now time to refactor the moldy js file.
+
