@@ -5,31 +5,43 @@
 
 <h1>sliderize</h1>
 
-<img src="hamburger.png">
-<img src="hamburger.png">
-<img src="hamburger.png">
+<div style="width:800px;border:0px solid red;">
+  <div style="width:400px;float:left;">
+    <img src="hamburger.png">
+    <img src="hamburger.png">
+    <img src="hamburger.png">
 
-<div style="width:300px;">
-	<div id="message" class="message"></div>
 
-	<div id="login" style="border:1px solid #ccc;padding:15px;">
 
-		First Name<br>
-		<input name="test" value="Scott" id="test">
+    <div style="width:300px;">
+	    <div id="message" class="message" style=""></div>
+	    
+	    <div id="login" style="margin-top:40px;border:1px solid #ccc;padding:15px;">
 
-	</div>
+		    First Name<br>
+		    <input name="test" value="figital" id="test">
+
+	    </div>
+    </div>
+    <br>
+    <button onclick="javascript:sliderize('<img src=hamburger.png align=left style=margin-right:10px;><p><b>Hot side hot, cool side cool !</b><p>Hello ' + $('#test').val(), 'messageBad', '#message');">Small</button>
+
+    <button onclick="javascript:sliderize('Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?', 'messageGood', '#message');">Big</button>
+
+    <button onclick="javascript:sliderize('', 'messageGood', '#message');">None</button>
+
+
+    <div id="footer" style="margin-top:10px;">
+        <img src="boston.jpg" style="width:400px;border:2px solid #999;">
+    </div>
+  </div>
+  <div style="width:300px;border:1px solid #ccc;margin-left:430px;padding:20px;line-height:150%;background-color:#f9f9f9;">
+    <b>Some Text To Balance The Demo</b>
+    <p>The World Wide Web Consortium (W3C) was founded by Tim Berners-Lee after he left the European Organization for Nuclear Research (CERN) in October, 1994. It was founded at the Massachusetts Institute of Technology Laboratory for Computer Science (MIT/LCS) with support from the European Commission and the Defense Advanced Research Projects Agency (DARPA), which had pioneered the Internet.
+    <p>W3C was created to ensure compatibility and agreement among industry members in the adoption of new standards. Prior to its creation, incompatible versions of HTML were offered by different vendors, increasing the potential for inconsistency between web pages. The consortium was created to get all those vendors to agree on a set of core principles and components which would be supported by everyone.
+    <p>It was originally intended that CERN host the European branch of W3C; however, CERN wished to focus on particle physics, not information technology. In April 1995 the Institut national de recherche en informatique et en automatique (INRIA) became the European host of W3C, with Keio University becoming the Japanese branch in September 1996. Starting in 1997, W3C created regional offices around the world; as of September 2009, it has eighteen World Offices covering Australia, the Benelux countries (Netherlands, Luxembourg, and Belgium), Brazil, China, Finland, Germany, Austria, Greece, Hong Kong, Hungary, India, Israel, Italy, South Korea, Morocco, South Africa, Spain, Sweden, and the United Kingdom and Ireland.[3]
+    <p>In January 2003, the European host was transferred from INRIA to the European Research Consortium for Informatics and Mathematics (ERCIM), an organization that represents European national computer science laboratories.
+
+
+  </div>
 </div>
-<br>
-<button onclick="javascript:sliderize('<img src=hamburger.png align=left style=margin-right:10px;><p><b>Hot side hot, cool side cool !</b><p>Hello ' + $('#test').val(), 'messageBad', '#message');">fire</button>
-
-
-
-<button onclick="javascript:sliderize('Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?', 'messageGood', '#message');">fire</button>
-
-<button onclick="javascript:sliderize('', 'messageGood', '#message');">fire</button>
-
-
-<div id="footer" style="margin-top:10px;">
-    <img src="boston.jpg" style="width:400px;">
-</div>
-
